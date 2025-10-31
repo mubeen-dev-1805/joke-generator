@@ -5,3 +5,5 @@ Types of joke:
 3.  food
 4.  political
 5.  dark
+6.  random
+7.  Explicit
