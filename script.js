@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
   function putJoke(data) {
     console.log(data);
 
+    jokeList.innerHTML = "";
+
     data.data.data.forEach((joke) => {
       console.log(joke);
 
