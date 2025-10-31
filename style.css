@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #37353e;
+  color: #fff;
+  font-family: "Albert Sans";
+  display: flex;
+  flex-direction: column;
+  /* width: 100vh; */
+  height: 100vh;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#joke-type {
+  width: 200px;
+  height: 25px;
+  display: inline;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.joke-button {
+  background-color: #d3dad9;
+  width: 75px;
+  height: 25px;
+  padding: 0px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+.joke-button:hover {
+  background-color: #8e9493;
+}
+
+.hidden {
+  display: none;
+}
+
+#joke-display {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100% - 10px;
+  background-color: #5f5f6a;
+  border-radius: 10px;
+}
+
+li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
